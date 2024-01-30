@@ -294,7 +294,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "http://www.missionpublicschool.com/images/topbanner/img1.jpg",
+    img: "https://github.com/Ad-gangwar/Portfolio-website/blob/main/src/images/school.png?raw=true",
     school: "Mission Public Schoool, Nbj, Bly, UP",
     date: "Apr 2019 - Apr 2020",
     grade: "93.4%",
@@ -303,7 +303,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "http://www.missionpublicschool.com/images/topbanner/img1.jpg",
+    img: "https://github.com/Ad-gangwar/Portfolio-website/blob/main/src/images/school.png?raw=true",
     school: "Mission Public Schoool, Nbj, Bly, UP",
     date: "Apr 2017 - Apr 2018",
     grade: "91.8%",
