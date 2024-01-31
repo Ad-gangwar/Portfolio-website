@@ -1,12 +1,18 @@
 import React from 'react'
 import { useState } from 'react'
-import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
+import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider, MoreButton} from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
 
-
 const Projects = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
+  const [visibleProjects, setVisibleProjects] = useState(6);
+
+  const loadMoreProjects = () => {
+    setVisibleProjects((prevVisibleProjects) => prevVisibleProjects + 6);
+  };
+
+
   return (
     <Container id="projects">
       <Wrapper>
@@ -40,15 +46,12 @@ const Projects = ({openModal,setOpenModal}) => {
           }
         </ToggleButtonGroup> */}
         <CardContainer>
-          {toggle === 'all' && projects
+          {(toggle === 'all' ? projects : projects.filter((item) => item.category === toggle))
+            .slice(0, visibleProjects)
             .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+              <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
             ))}
-          {projects
-            .filter((item) => item.category == toggle)
-            .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
-            ))}
+          {visibleProjects < projects.length && <MoreButton onClick={loadMoreProjects}>Load More</MoreButton>}
         </CardContainer>
       </Wrapper>
     </Container>
