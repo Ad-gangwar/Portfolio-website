@@ -6,7 +6,7 @@ export const Bio = {
     "DSA Enthusiast"
   ],
   description:
-    "Passionate second-year B.Tech (CSE) student at IIIT Kota, proficient in C/C++, Javascript, and Python. Experienced in web development with 18+ projects, including frontend and backend technologies. Accomplished coder with 3-star Codechef rating, Codeforces participation, and over 500 problem-solving achievements. Skilled in ReactJS, Express.js, MongoDB, MySQL, HTML, CSS, Bootstrap, and Material UI. Adept at version control using Git and Github. Excited about contributing to the tech landscape",
+    "Passionate second-year B.Tech (CSE) student at IIIT Kota, proficient in C/C++, Javascript, and Python. Experienced in web development with 18+ projects, including frontend and backend technologies. Accomplished coder with 3-star Codechef rating, Codeforces participation, and over 500 problem-solving achievements. Excited about contributing to the tech landscape",
   github: "https://github.com/Ad-gangwar",
   resume:
     "https://drive.google.com/file/d/1Y3jjwXfnIBHnITUOLKnsDMIb-wHupPrF/view?usp=sharing",
