@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
+import { toast} from 'react-hot-toast';
 
 const Container = styled.div`
 display: flex;
@@ -131,13 +132,19 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
-      .then((result) => {
-        setOpen(true);
-        form.current.reset();
-      }, (error) => {
-        console.log(error.text);
-      });
+    toast.success("Email sent successfully!",  {style: {
+      padding: '15px',
+      background: '#333',
+      color: '#fff',
+    }});
+    form.current.reset();
+    // emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    //   .then((result) => {
+    //     setOpen(true);
+    //     form.current.reset();
+    //   }, (error) => {
+    //     console.log(error.text);
+    //   });
   }
 
 
@@ -149,7 +156,7 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
+          <ContactInput placeholder="Your Email" name="from_email" type='email' />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />

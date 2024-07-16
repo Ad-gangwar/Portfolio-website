@@ -3,16 +3,16 @@ export const Bio = {
   roles: [
     "MERN Stack Developer",
     "Competitive Programmer",
-    "DSA Enthusiast"
+    "ML Enthusiast",
+    "DSA Enthusiast",
   ],
   description:
-    "Passionate second-year B.Tech (CSE) student at IIIT Kota, proficient in C/C++, Javascript, and Python. Experienced in web development with 18+ projects, including frontend and backend technologies. Accomplished coder with 3-star Codechef rating, Codeforces participation, and over 500 problem-solving achievements. Excited about contributing to the tech landscape",
+    "3rd-year B.Tech. CSE Undergraduate at IIIT Kota. I am a motivated and versatile individual, always eager to take on new challenges and deliver high-quality results. With a positive attitude, growth mindset, and quick learning ability, I am an effective team player excited about contributing to the tech industry.",
   github: "https://github.com/Ad-gangwar",
-  resume:
-    "https://drive.google.com/file/d/1Y3jjwXfnIBHnITUOLKnsDMIb-wHupPrF/view?usp=sharing",
+  links:"https://linktr.ee/Aditya_Gangwar",
   linkedin: "https://www.linkedin.com/in/aditya-gangwar-3aa3aa257/",
   insta: "https://www.instagram.com/aditya._gangwar/",
-  facebook: "https://www.facebook.com/ad.gangwar.7/",
+  email: "adgangwar54@gmail.com"
 };
 
 export const skills = [
@@ -46,7 +46,7 @@ export const skills = [
       {
         name: "Material UI",
         image:
-          "data:image/png;base64,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",
+          "https://miro.medium.com/v2/resize:fit:640/format:webp/1*Yia8fURbYbH431G0KxzCXg.png",
       },
       {
         name: "Tailwind CSS",
@@ -119,24 +119,41 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - July 2023",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    img: "",
+    role: "Project Assist - FoodCription",
+    company: "FoodCription",
+    date: "July 2024 - Present",
+    desc: "Contributing to a health-focused initiative called FoodCription, dedicated to helping people maintain a healthy, disease-free lifestyle.",
     skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
+      "HTML",
+      "CSS",
       "JavaScript",
-      "TypeScript",
+      "Mongoose",
+      "Express JS",
+      "React JS",
       "Node Js",
-      " Next Js",
+      "Tailwind CSS"
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    doc: "",
+  }, 
+  {
+    id: 1,
+    img: "https://media.licdn.com/dms/image/D560BAQHldMPf5v9ihg/company-logo_200_200/0/1719257550243/studentprojectshub_logo?e=1729123200&v=beta&t=H72v31Qy8eG_ZonDVbVCSad5ejJnoBt8UHa2JEcjWlk",
+    role: "Software Developer Intern",
+    company: "Students Project Hub",
+    date: "June 2024 - July 2024",
+    desc: "Developed a Blood Donation website to manage blood stock data, facilitating easy donation scheduling and real-time inventory updates.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Mongoose",
+      "Express JS",
+      "React JS",
+      "Node Js",
+      "Bootstrap"
+    ],
+    doc: "",
   }, 
 ];
 
@@ -173,6 +190,27 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Legal-Ease India",
+    description:
+      "Legal-Ease India serves as a centralized platform, or e-market, connecting Advocates, Notaries, Mediators, Arbitrators, and Document writers with clients seamlessly. It's a one-stop solution for all your legal service needs!. It is a MERN Stack project with extremely responsive design and OTP Verification system for user authentication and security.User can request service from service provider, give ratings and feedback, modify their profile. It is a full-fledged website consisting of notification feature and payment gateway.",
+    image:"https://github.com/Ad-gangwar/Web-Relay/blob/main/Screenshot%20(71).png?raw=true",
+    tags: ["Mongo DB","Express JS", "React JS", "Node JS", "HTML", "CSS", "Javascript", "Cloudinary", "Bootstrap", "Stripe", "Iconify"],
+    category: "web app",
+    webapp: "https://legalease-india.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Medicare",
+    description:
+      "Welcome to our state-of-the-art Doctor Appointment System, where your health is our top priority. Our user-friendly platform is designed to seamlessly connect patients with their preferred healthcare providers, offering a convenient and efficient way to schedule appointments. Experience the ease of exploring doctor availability, receiving timely reminders, and providing valuable feedback after each visit.",
+    image:
+      "https://github.com/Ad-gangwar/Web-Relay/blob/main/Screenshot%20(72).png?raw=true",
+    tags: ["Mongo DB","Express JS", "React JS", "Node JS", "HTML", "CSS", "Javascript", "Cloudinary", "Stripe", "Tailwind CSS", "Iconify"],
+    category: "web app",
+    webapp: "https://medicare-adi.netlify.app/",
+  },
+  {
+    id: 2,
     title: "Go Food",
     description:
       "Food Delivery Website created using MERN Stack. Implemented secure user authentication and authorization using JWT (JSON Web Tokens) for enhanced data protection. Developed a dynamic shopping cart feature allowing users to add modify, and remove items seamlessly. Created a comprehensive order management system to track and display user orders efficiently.",
@@ -184,7 +222,7 @@ export const projects = [
     webapp: "https://go-food-344.netlify.app/",
   },
   {
-    id: 1,
+    id: 3,
     title: "Secrets Website",
     description:
       "Website developed using MERN Stack where people can submit their secrets anonymously and also can see others secrets as well which other peoples have shared. This website contains a login page where one can sign up by creating a new account as well as can sign in with his gmail id. This website also stores user information in form of cookies to remember users while signing in. Prioritized user security by incorporating encryption techniques and secure authentication methods.",
@@ -196,7 +234,7 @@ export const projects = [
     webapp: "https://secrets-website.netlify.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Spotify Clone",
     description:
       "Engineered a full-stack Spotify clone replicating the core features of the popular music streaming platform Implemented user authentication and authorization through Passport-JWT. Enabled user to upload song, create playlist, search artists and songs.",
@@ -208,7 +246,7 @@ export const projects = [
     webapp: "https://spotify-clone-adi.netlify.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Tic-Tac-Toe Game",
     description:"This is a simple Tic Tac Toe game project made using HTML, CSS and Javascript. Game starts with the turn of X and if 3 boxes in a line are same then that player wins the game. Sound also plays for each turn and game over.",
     image:
@@ -223,7 +261,7 @@ export const projects = [
     webapp: "https://ad-gangwar.github.io/Tic-Tac-Toe-Game-project/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Simon Game",
     description:
       "Developed the Simon game using HTML, CSS and javascript. In this game, certain patterns are shown to player and the player has to click back the colour boxes in the same pattern. If he/she succeed in doing so, then game is transferred to another harder level and if fails, the score is displayed on the screen and game is started again.",
@@ -235,7 +273,7 @@ export const projects = [
     webapp: "https://ad-gangwar.github.io/Simon-game/",
   },
   {
-    id: 5,
+    id: 7,
     title: "Drum Kit Website",
     description:
       "This is a Drum kit website made using HTML, CSS and Javascript with user-friendly and simple interface. When one clicks on various drum icons or presses mentioned keys, chracteristic sound of various drum plays.",
@@ -247,7 +285,7 @@ export const projects = [
     webapp: "https://ad-gangwar.github.io/Drum-kit-Website/",
   },
   {
-    id: 6,
+    id: 8,
     title: "Calculator",
     description:
       "Developed a calculator using ReactJS, JavaScript, HTML, and CSS. The ReactJS component structure ensures modularity, while JavaScript manages user input, executes operations, and updates the display. HTML defines the layout, and CSS ensures a visually appealing and responsive design.",
@@ -259,7 +297,7 @@ export const projects = [
     webapp: "https://calculator-76.netlify.app/",
   },
   {
-    id: 7,
+    id: 9,
     title: "Tindog Website",
     description:
       "This is a front end webpage for a website for dog where one can buy or sell dogs. This project is created using only html and css.",
@@ -272,7 +310,7 @@ export const projects = [
   },
  
   {
-    id: 8,
+    id: 10,
     title: "Keeper App",
     description:
       "It is a project for keeping notes you want to remember. One can also delete his/her notes on clicking delete button. It can also be used to keep a to-do-list. It is created using html, javascript, css and react.js.",
@@ -283,12 +321,4 @@ export const projects = [
     github: "https://github.com/Ad-gangwar/Keeper_app",
     webapp: "https://keeper-app-84e758.netlify.app/",
   },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
 ];

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import _default from '../../themes/default';
 
 export const MoreButton = styled.a`
     -webkit-appearance: button;

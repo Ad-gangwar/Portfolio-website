@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -84,6 +85,7 @@ const Copyright = styled.p`
 `;
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <FooterContainer>
       <FooterWrapper>
@@ -91,17 +93,18 @@ function Footer() {
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
-          {/* <NavLink href="#experience">Experience</NavLink> */}
+          <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
+          <SocialMediaIcon href={Bio.email} target="display"><EmailIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon/></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Aditya Gangwar. All rights reserved.
+          &copy; {currentYear} Aditya Gangwar. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
