@@ -119,7 +119,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "",
+    img: "https://github.com/Ad-gangwar/Web-Relay/blob/main/Screenshot%202024-07-21%20095608.png?raw=true",
     role: "Project Assist - FoodCription",
     company: "FoodCription",
     date: "July 2024 - Present",
